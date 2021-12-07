@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Axios from 'axios';
+import Currency from './Currency.js';
 
 class Monitor extends Component {
     constructor (props) {
@@ -15,7 +16,7 @@ class Monitor extends Component {
 
     componentDidMount () {
         this.fetchEthPrice();
-        this.interval = setInterval(() => this.fetchEthPrice(), 15 * 1000);
+        this.interval = setInterval(() => this.fetchEthPrice(), 10 * 1000);
     }
 
     fetchEthPrice () {
@@ -29,10 +30,11 @@ class Monitor extends Component {
     }
 
     render () {
+        let monitorCurrency = <Currency data={this.state.data} />;
     
         return (
             <div>
-            <h1>rendered?</h1>
+            <ul className="monitor">{monitorCurrency}</ul>
             </div>
 
         );
