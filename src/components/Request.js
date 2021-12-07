@@ -18,7 +18,7 @@ function Form() {
             <form onSubmit={handleSubmit}>
                 <div>
                     <label for="Symbol" id="nameLabel">Symbol Requested</label>
-                    <input type="text" placeholder="ETH, BTC, DOT" />
+                    <input type="text" placeholder="ETH, BTC, DOT" ref={symbolRef}/>
                 </div>
 
                 <label for="email">Email</label>
