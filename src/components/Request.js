@@ -2,8 +2,14 @@ import React, { useRef} from 'react'
 
 function Form() {
 
-    const handleSubmit = (event) => {
+    const symbolRef = useRef(null);
 
+    const handleSubmit = (event) => {
+        event.preventDefault()
+        const data = {
+          Symbol: symbolRef.current.value,
+      }
+        alert( data.Symbol + " was successfully requested!")
     }
 
     return (
