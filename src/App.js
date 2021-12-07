@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar.js';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Request from './components/Request.js';
+import Monitor from './components/Monitor';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         </div>
         <div>
           <Routes>
-            {/* <Route path="/" element={}/> */}
+            <Route path="/" element={<Monitor/>}/>
             <Route path="/request" element={<Request/>}/>
           </Routes>
         </div>

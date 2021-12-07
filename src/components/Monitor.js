@@ -32,6 +32,7 @@ class Monitor extends Component {
     
         return (
             <div>
+            <h1>rendered?</h1>
             </div>
 
         );
