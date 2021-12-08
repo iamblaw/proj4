@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Ethereum Price Tracker
+
+Uses CoinGecko API, becareful with too many requests as is a public api
+
+https://i.ibb.co/vjdqSxS/Screen-Shot-2021-12-07-at-5-24-45-PM.png
+
+Pseudo Request a coin symbol here alerts on submission
+https://i.ibb.co/9r9FDry/Screen-Shot-2021-12-07-at-5-24-54-PM.png
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+##Live Deployment
+Deployed to firebase
+https://proj4flowers.web.app/
 
 ## Available Scripts
 
