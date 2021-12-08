@@ -2,10 +2,10 @@
 
 Uses CoinGecko API, becareful with too many requests as is a public api
 
-public/monitor-app.png
+![alt text](https://i.ibb.co/vjdqSxS/Screen-Shot-2021-12-07-at-5-24-45-PM.png)
 
 Pseudo Request a coin symbol here alerts on submission
-public/request-app.png
+![alt text](https://i.ibb.co/9r9FDry/Screen-Shot-2021-12-07-at-5-24-54-PM.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
