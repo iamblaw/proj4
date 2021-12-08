@@ -13,6 +13,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Deployed to firebase
 https://proj4flowers.web.app/
 
+## Google Docs workflow
+https://docs.google.com/document/d/1zRI4ooXLKAjA22k0RaO2NKQljM7AF9Gotas0-b1QiUE/edit?usp=sharing
+
 ## Available Scripts
 
 In the project directory, you can run:
