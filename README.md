@@ -7,6 +7,11 @@ Uses CoinGecko API, becareful with too many requests as is a public api
 Pseudo Request a coin symbol here alerts on submission
 ![alt text](https://i.ibb.co/9r9FDry/Screen-Shot-2021-12-07-at-5-24-54-PM.png)
 
+
+By using the coingecko public api via axios a simple request can be made to receive the usd price of a currency. The price is returned into an object in which you can use to modify state and pass to the monitor component. The monitor component has a child component called currency which will render the price in a list element. There is also a pseudo request form which accepts a currency symbol from the user and alerts the submission. With the router, the Navigation bar helps links url's with their correpsonding components via main app.
+
+requests are from public api so when testing if there is too many requests in too short of a time they will be temporarily denied i.e. cors policy etc.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Deployment
